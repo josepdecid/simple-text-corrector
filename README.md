@@ -30,23 +30,23 @@ Other flags such as `-march=native`, which enables the usage of instructions spe
 
 You can compile the code with the Makefile by running the following command from the root folder:
 ```shell
-make compile
+$ make compile
 ```
 
 If you don't have the `make` utility installed, you can compile it manually with the following command:
 ```shell
-g++ -std=c++11 -Ofast corrector.cc -o corrector.exe
+$ g++ -std=c++11 -Ofast corrector.cc -o corrector.exe
 ```
 
 To run the program, simply run the generated executable file and pass the two required parameters, the text file to correct, and the dictionary:
 
 ```shell
-./corrector.exe <ORIGINAL_TXT_PATH> <DICTIONARY_PATH>
+$ ./corrector.exe <ORIGINAL_TXT_PATH> <DICTIONARY_PATH>
 ```
 
 Check the execution time appending the `time` utility to the previous command:
 ```shell
-time <COMMAND>
+$ time <COMMAND>
 ```
 
 > ⚠️ The code has not been tested in Windows! Therefore, it can have strange characters due to different encoding strategies. Use a Unix system to compile it and run or use the Windows Subsystem for Linux.
