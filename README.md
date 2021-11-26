@@ -49,4 +49,4 @@ Check the execution time appending the `time` utility to the previous command:
 $ time <COMMAND>
 ```
 
-> ⚠️ The code has not been tested in Windows! Therefore, it can have strange characters due to different encoding strategies. Use a Unix system to compile it and run or use the Windows Subsystem for Linux.
+> ⚠️ The code has been tested only in Windows Sybsystem for Linux (Ubuntu). Therefore, it can have strange or missing characters due to different encoding strategies. 
